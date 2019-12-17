@@ -332,13 +332,17 @@ public class Compte extends HttpServlet {
 "   });\n" +
 "    </script>");
             
-            out.println("<script type=\"text/javascript\">\n" +
+            out.println("<script type=\"text/javascript\" >\n" +
 "    function reponse() {\n" +
 "  var login = document.getElementById(\"login\").value;\n" +
 "  var password = document.getElementById(\"password\").value;\n" +
 "  if (login == \"Contact\" || password == \"Code\") {\n" +
 "   var identifiant = 1;\n" +
-"   window.location.href=\"Server/Accueil.java\"; \n" +
+"    }\n" +         
+"  else if (login == \"Admin\" || password == \"Admin\") {\n" +
+"   window.location.href=\"Server/Admin.java\"; \n" +
+"    }\n" +           
+"   window.location.href=\"Server/Accueil.java\"; \n" + 
 "}\n" +
 "  </script>");
             out.println(" <header>\n" +
