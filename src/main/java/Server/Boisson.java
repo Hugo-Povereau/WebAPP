@@ -113,12 +113,10 @@ public class Boisson extends HttpServlet {
 "        <ul class=\"navbar-nav mr-auto\">\n" +
 "\n" +
 "            <li class=\"nav-item dropdown\">\n" +
-"                <a class=\"nav-link dropdown-toggle\" id=\"dropdown1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">on teste la longueur maximal possible pour un titre</a>\n" +
+"                <a class=\"nav-link dropdown-toggle\" id=\"dropdown1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Se conecter ou s'inscrire</a>\n" +
 "                <ul class=\"dropdown-menu\" aria-labelledby=\"dropdown1\">\n" +
-"                    <li class=\"dropdown-item\"> <a href=\"AnotherServlet\" >on teste la longueur maximal possible pour un titre</a></li>\n" +
-"                    <li class=\"dropdown-item dropdown\">\n" +
-"                        <a class=\"dropdown-toggle\" id=\"dropdown1-1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Peut-être PAS</a>\n" +
-"                    </li>\n" +
+"                    <li class=\"dropdown-item\"> <a href=\"AnotherServlet\" >Se conecter</a></li>\n" +
+"                    <li class=\"dropdown-item\"> <a href=\"AnotherServlet\" >S'inscrire</a></li>\n" +
 "                </ul>\n" +
 "            </li>\n" +
 "            <li class=\"nav-item dropdown\">\n" +

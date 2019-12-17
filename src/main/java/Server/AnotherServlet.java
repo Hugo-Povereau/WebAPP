@@ -44,13 +44,25 @@ public class AnotherServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet AnotherServlet</title>");            
+            out.println("<title>Page de connexion</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>AnotherServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1> Conectez vous</h1>");
+            out.println("<form method=\"post\" action=\"Accueil\">\n" +
+"   <p>\n" +
+"       <label for=\"pseudo\">Votre pseudo :</label>\n" +
+"       <input type=\"text\" name=\"pseudo\" id=\"pseudo\" required />\n" +
+"       \n" +
+"       <br />\n" +
+"       <label for=\"pass\">Votre mot de passe :</label>\n" +
+"       <input type=\"password\" name=\"pass\" id=\"pass\" required />\n" +
+"       \n" +
+"   </p>\n" +
+"<input type=\"submit\" value=\"Envoyer\" action=\"Accueil\"/>" +
+"</form>");
             out.println("</body>");
             out.println("</html>");
-            out.println("Accessed: " + request.getSession().getAttribute("count"));
+            out.println("Vous avez accédé à cette page " + request.getSession().getAttribute("count") + " fois.");
         }
     }
 
