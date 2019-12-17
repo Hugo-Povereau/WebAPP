@@ -115,8 +115,8 @@ public class Fromage extends HttpServlet {
 "            <li class=\"nav-item dropdown\">\n" +
 "                <a class=\"nav-link dropdown-toggle\" id=\"dropdown1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Se conecter ou s'inscrire</a>\n" +
 "                <ul class=\"dropdown-menu\" aria-labelledby=\"dropdown1\">\n" +
-"                    <li class=\"dropdown-item\"> <a href=\"AnotherServlet\" >Se conecter</a></li>\n" +
-"                    <li class=\"dropdown-item\"> <a href=\"AnotherServlet\" >S'inscrire</a></li>\n" +
+"                    <li class=\"dropdown-item\"> <a href=\"Compte\" >Se conecter</a></li>\n" +
+"                    <li class=\"dropdown-item\"> <a href=\"Compte\" >S'inscrire</a></li>\n" +
 "                </ul>\n" +
 "            </li>\n" +
 "            <li class=\"nav-item dropdown\">\n" +
